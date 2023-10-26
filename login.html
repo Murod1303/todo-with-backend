@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Login</title>
+    <title>Register</title>
+  </head>
+  <body>
+    <main class="loginRegister">
+      <div class="container">
+        <div class="login-register">
+          <div class="login__cover">
+            <button class="loginBtn" type="button"><span>SignIn</span></button>
+            <button class="loginBtn registerBtn" type="button"><span>SignUp</span></button>
+          </div>
+          <div class="register__wrapper">
+            <div class="logo__wrapper">
+              <a class="logo" href="#">
+                <img
+                  src="./images/logo.svg"
+                  alt="logo"
+                  width="231"
+                  height="45"
+                />
+              </a>
+              <span class="sign singup"> SignUp </span>
+            </div>
+            <form class="todo-register-form">
+              <input
+                class="input register-name"
+                type="text"
+                arial-label="name"
+                placeholder="name"
+                name="username"
+                required
+              />
+              <input
+                class="input register-email"
+                type="email"
+                arial-label="email"
+                placeholder="email"
+                name="userEmail"
+                required
+              />
+              <input
+                class="input register-phone"
+                type="tel"
+                arial-label="phone"
+                placeholder="phone"
+                name="Number"
+                required
+              />
+              <input
+                class="input register-pasword"
+                type="text"
+                arial-label="pasword"
+                placeholder="pasword"
+                name="password"
+                required
+              />
+              <button class="btn" type="submit">register</button>
+            </form>
+          </div>
+          <div class="login__wrapper">
+            <div class="logo__wrapper">
+              <a class="logo" href="#">
+                <img src="./images/logo.svg" alt="" width="231" height="45" />
+              </a>
+              <span class="sign signin"> SignIn </span>
+            </div>
+            <form class="login__form">
+              <label class="login__label">
+                <input
+                  class="input login__email"
+                  type="email"
+                  arial-label="enter your email"
+                  placeholder="Enter your email"
+                />
+              </label>
+              <label class="login__pas">
+                <input
+                  class="input login__pasword"
+                  type="text"
+                  arial-label="enter your password"
+                  placeholder="Enter your password"
+                />
+              </label>
+              <button class="btn login__btn" type="submit">Login</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="./js/login.js"></script>
+  </body>
+</html>
